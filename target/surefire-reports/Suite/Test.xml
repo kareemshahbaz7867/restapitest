@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="LAPTOP-26SQLRBR" name="restapitesting.ApiJsonTest" tests="11" failures="4" timestamp="8 Jul 2019 07:03:38 GMT" time="10.882" errors="0">
-  <testcase name="addDeletePlace" time="5.475" classname="restapitesting.ApiJsonTest"/>
-  <testcase name="post" time="0.75" classname="restapitesting.ApiJsonTest"/>
+<testsuite hostname="LAPTOP-26SQLRBR" name="restapitesting.ApiJsonTest" tests="11" failures="4" timestamp="8 Jul 2019 19:33:37 GMT" time="18.536" errors="0">
+  <testcase name="addDeletePlace" time="7.696" classname="restapitesting.ApiJsonTest"/>
+  <testcase name="post" time="0.792" classname="restapitesting.ApiJsonTest"/>
   <testcase name="get" time="0.001" classname="restapitesting.ApiTests"/>
-  <testcase name="addDeletePlace" time="0.592" classname="restapitesting.ApiXMLTest">
+  <testcase name="addDeletePlace" time="0.709" classname="restapitesting.ApiXMLTest">
     <failure type="java.lang.AssertionError" message="1 expectation failed.
 Expected content-type &amp;quot;XML&amp;quot; doesn&amp;apos;t match actual content-type &amp;quot;application/json; charset=UTF-8&amp;quot;.
 ">
@@ -32,10 +32,10 @@ Expected content-type "XML" doesn't match actual content-type "application/json;
 ... Removed 32 stack frames]]>
     </failure>
   </testcase>
-  <testcase name="post" time="0.804" classname="restapitesting.ApiXMLTest"/>
-  <testcase name="createJiraIssue" time="1.106" classname="restapitesting.JiraRestApiTest"/>
-  <testcase name="addBookApiTest" time="0.59" classname="restapitesting.LibraryApiTest"/>
-  <testcase name="addBookApiTest" time="0.601" classname="restapitesting.LibraryApiTest">
+  <testcase name="post" time="0.834" classname="restapitesting.ApiXMLTest"/>
+  <testcase name="createJiraIssue" time="6.383" classname="restapitesting.JiraRestApiTest"/>
+  <testcase name="addBookApiTest" time="0.627" classname="restapitesting.LibraryApiTest"/>
+  <testcase name="addBookApiTest" time="0.634" classname="restapitesting.LibraryApiTest">
     <failure type="java.lang.AssertionError" message="1 expectation failed.
 Expected status code &amp;lt;200&amp;gt; but was &amp;lt;404&amp;gt;.
 ">
@@ -64,8 +64,8 @@ Expected status code <200> but was <404>.
 ... Removed 31 stack frames]]>
     </failure>
   </testcase>
-  <testcase name="addBookApiTest" time="0.685" classname="restapitesting.LibraryApiTest"/>
-  <testcase name="getLatestTweets" time="0.188" classname="restapitesting.TwitterRestApiTest">
+  <testcase name="addBookApiTest" time="0.668" classname="restapitesting.LibraryApiTest"/>
+  <testcase name="getLatestTweets" time="0.068" classname="restapitesting.TwitterRestApiTest">
     <failure type="java.lang.NoClassDefFoundError" message="com/github/scribejava/core/builder/api/DefaultApi10a">
       <![CDATA[java.lang.NoClassDefFoundError: com/github/scribejava/core/builder/api/DefaultApi10a
 	at io.restassured.internal.http.AuthConfig.oauth(AuthConfig.java:153)
@@ -134,7 +134,7 @@ Caused by: java.lang.ClassNotFoundException: com.github.scribejava.core.builder.
 ... Removed 37 stack frames]]>
     </failure>
   </testcase>
-  <testcase name="postTweet" time="0.019" classname="restapitesting.TwitterRestApiTest">
+  <testcase name="postTweet" time="0.02" classname="restapitesting.TwitterRestApiTest">
     <failure type="java.lang.NoClassDefFoundError" message="com/github/scribejava/core/builder/api/DefaultApi10a">
       <![CDATA[java.lang.NoClassDefFoundError: com/github/scribejava/core/builder/api/DefaultApi10a
 	at io.restassured.internal.http.AuthConfig.oauth(AuthConfig.java:153)

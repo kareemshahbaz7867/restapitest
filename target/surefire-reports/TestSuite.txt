@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 14.897 sec <<< FAILURE! - in TestSuite
-addDeletePlace(restapitesting.ApiXMLTest)  Time elapsed: 0.594 sec  <<< FAILURE!
+Tests run: 11, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 23.611 sec <<< FAILURE! - in TestSuite
+addDeletePlace(restapitesting.ApiXMLTest)  Time elapsed: 0.716 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 Expected content-type "XML" doesn't match actual content-type "application/json; charset=UTF-8".
 
@@ -30,7 +30,7 @@ Expected content-type "XML" doesn't match actual content-type "application/json;
 	at io.restassured.internal.ValidatableResponseOptionsImpl.contentType(ValidatableResponseOptionsImpl.java:244)
 	at restapitesting.ApiXMLTest.addDeletePlace(ApiXMLTest.java:58)
 
-addBookApiTest(restapitesting.LibraryApiTest)  Time elapsed: 0.587 sec  <<< FAILURE!
+addBookApiTest(restapitesting.LibraryApiTest)  Time elapsed: 0.635 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 Expected status code <200> but was <404>.
 
@@ -57,7 +57,7 @@ Expected status code <200> but was <404>.
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
 	at restapitesting.LibraryApiTest.addBookApiTest(LibraryApiTest.java:42)
 
-getLatestTweets(restapitesting.TwitterRestApiTest)  Time elapsed: 0.174 sec  <<< FAILURE!
+getLatestTweets(restapitesting.TwitterRestApiTest)  Time elapsed: 0.076 sec  <<< FAILURE!
 java.lang.NoClassDefFoundError: com/github/scribejava/core/builder/api/DefaultApi10a
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
@@ -130,7 +130,7 @@ java.lang.NoClassDefFoundError: com/github/scribejava/core/builder/api/DefaultAp
 	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)
 	at restapitesting.TwitterRestApiTest.getLatestTweets(TwitterRestApiTest.java:24)
 
-postTweet(restapitesting.TwitterRestApiTest)  Time elapsed: 0.025 sec  <<< FAILURE!
+postTweet(restapitesting.TwitterRestApiTest)  Time elapsed: 0.029 sec  <<< FAILURE!
 java.lang.NoClassDefFoundError: com/github/scribejava/core/builder/api/DefaultApi10a
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)

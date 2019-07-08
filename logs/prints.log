@@ -1,4 +1,4 @@
-03:03:27.352 [main] INFO  restapitesting.ApiJsonTest - Host Information : http://216.10.245.166
-03:03:32.119 [main] INFO  restapitesting.ApiJsonTest - Response :{"status":"OK","place_id":"2be6ed37989551b484a0b6a9ee8c2a85","scope":"APP","reference":"6a46f6c9ea30d135f3cf2949a186e0b96a46f6c9ea30d135f3cf2949a186e0b9","id":"6a46f6c9ea30d135f3cf2949a186e0b9"}
-03:03:32.171 [main] INFO  restapitesting.ApiJsonTest - place id value 2be6ed37989551b484a0b6a9ee8c2a85
-03:03:32.812 [main] INFO  restapitesting.ApiJsonTest - Host Information : http://216.10.245.166
+15:33:19.016 [main] INFO  restapitesting.ApiJsonTest - Host Information : http://216.10.245.166
+15:33:25.956 [main] INFO  restapitesting.ApiJsonTest - Response :{"status":"OK","place_id":"d682905389702cb3823d0ce5829bd12a","scope":"APP","reference":"de0d41e1ff1dad83f96cf5e50c040a15de0d41e1ff1dad83f96cf5e50c040a15","id":"de0d41e1ff1dad83f96cf5e50c040a15"}
+15:33:26.008 [main] INFO  restapitesting.ApiJsonTest - place id value d682905389702cb3823d0ce5829bd12a
+15:33:26.691 [main] INFO  restapitesting.ApiJsonTest - Host Information : http://216.10.245.166

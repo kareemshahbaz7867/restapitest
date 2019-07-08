@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="4" total="11" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="10882" started-at="2019-07-08T03:03:27Z" finished-at="2019-07-08T03:03:38Z">
+  <suite name="Suite" duration-ms="18536" started-at="2019-07-08T15:33:18Z" finished-at="2019-07-08T15:33:37Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="10882" started-at="2019-07-08T03:03:27Z" finished-at="2019-07-08T03:03:38Z">
+    <test name="Test" duration-ms="18536" started-at="2019-07-08T15:33:18Z" finished-at="2019-07-08T15:33:37Z">
       <class name="restapitesting.TwitterRestApiTest">
-        <test-method status="FAIL" signature="getLatestTweets()" name="getLatestTweets" duration-ms="188" started-at="2019-07-08T03:03:37Z" finished-at="2019-07-08T03:03:38Z">
+        <test-method status="FAIL" signature="getLatestTweets()" name="getLatestTweets" duration-ms="68" started-at="2019-07-08T15:33:37Z" finished-at="2019-07-08T15:33:37Z">
           <exception class="java.lang.NoClassDefFoundError">
             <message>
               <![CDATA[com/github/scribejava/core/builder/api/DefaultApi10a]]>
@@ -118,7 +118,7 @@ Caused by: java.lang.ClassNotFoundException: com.github.scribejava.core.builder.
             </full-stacktrace>
           </exception>
         </test-method>
-        <test-method status="FAIL" signature="postTweet()" name="postTweet" duration-ms="19" started-at="2019-07-08T03:03:38Z" finished-at="2019-07-08T03:03:38Z">
+        <test-method status="FAIL" signature="postTweet()" name="postTweet" duration-ms="20" started-at="2019-07-08T15:33:37Z" finished-at="2019-07-08T15:33:37Z">
           <exception class="java.lang.NoClassDefFoundError">
             <message>
               <![CDATA[com/github/scribejava/core/builder/api/DefaultApi10a]]>
@@ -224,27 +224,27 @@ Caused by: java.lang.ClassNotFoundException: com.github.scribejava.core.builder.
         </test-method>
       </class>
       <class name="restapitesting.ApiTests">
-        <test-method status="PASS" signature="get()" name="get" duration-ms="1" started-at="2019-07-08T03:03:33Z" finished-at="2019-07-08T03:03:33Z">
+        <test-method status="PASS" signature="get()" name="get" duration-ms="1" started-at="2019-07-08T15:33:27Z" finished-at="2019-07-08T15:33:27Z">
         </test-method>
       </class>
       <class name="restapitesting.JiraRestApiTest">
-        <test-method status="PASS" signature="createJiraIssue()" name="createJiraIssue" duration-ms="1106" started-at="2019-07-08T03:03:34Z" finished-at="2019-07-08T03:03:36Z">
+        <test-method status="PASS" signature="createJiraIssue()" name="createJiraIssue" duration-ms="6383" started-at="2019-07-08T15:33:29Z" finished-at="2019-07-08T15:33:35Z">
         </test-method>
       </class>
       <class name="restapitesting.ApiJsonTest">
-        <test-method status="PASS" signature="initialization()" name="initialization" is-config="true" duration-ms="18" started-at="2019-07-08T03:03:27Z" finished-at="2019-07-08T03:03:27Z">
+        <test-method status="PASS" signature="initialization()" name="initialization" is-config="true" duration-ms="48" started-at="2019-07-08T15:33:18Z" finished-at="2019-07-08T15:33:18Z">
         </test-method>
-        <test-method status="PASS" signature="initialization()" name="initialization" is-config="true" duration-ms="1" started-at="2019-07-08T03:03:27Z" finished-at="2019-07-08T03:03:27Z">
+        <test-method status="PASS" signature="initialization()" name="initialization" is-config="true" duration-ms="0" started-at="2019-07-08T15:33:18Z" finished-at="2019-07-08T15:33:18Z">
         </test-method>
-        <test-method status="PASS" signature="initialization()" name="initialization" is-config="true" duration-ms="0" started-at="2019-07-08T03:03:27Z" finished-at="2019-07-08T03:03:27Z">
+        <test-method status="PASS" signature="initialization()" name="initialization" is-config="true" duration-ms="1" started-at="2019-07-08T15:33:18Z" finished-at="2019-07-08T15:33:18Z">
         </test-method>
-        <test-method status="PASS" signature="addDeletePlace()" name="addDeletePlace" duration-ms="5475" started-at="2019-07-08T03:03:27Z" finished-at="2019-07-08T03:03:32Z">
+        <test-method status="PASS" signature="addDeletePlace()" name="addDeletePlace" duration-ms="7696" started-at="2019-07-08T15:33:18Z" finished-at="2019-07-08T15:33:26Z">
         </test-method>
-        <test-method status="PASS" signature="post()" name="post" duration-ms="750" started-at="2019-07-08T03:03:32Z" finished-at="2019-07-08T03:03:33Z">
+        <test-method status="PASS" signature="post()" name="post" duration-ms="792" started-at="2019-07-08T15:33:26Z" finished-at="2019-07-08T15:33:27Z">
         </test-method>
       </class>
       <class name="restapitesting.ApiXMLTest">
-        <test-method status="FAIL" signature="addDeletePlace()" name="addDeletePlace" duration-ms="592" started-at="2019-07-08T03:03:33Z" finished-at="2019-07-08T03:03:34Z">
+        <test-method status="FAIL" signature="addDeletePlace()" name="addDeletePlace" duration-ms="709" started-at="2019-07-08T15:33:27Z" finished-at="2019-07-08T15:33:28Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -310,11 +310,11 @@ Expected content-type "XML" doesn't match actual content-type "application/json;
             </full-stacktrace>
           </exception>
         </test-method>
-        <test-method status="PASS" signature="post()" name="post" duration-ms="804" started-at="2019-07-08T03:03:34Z" finished-at="2019-07-08T03:03:34Z">
+        <test-method status="PASS" signature="post()" name="post" duration-ms="834" started-at="2019-07-08T15:33:28Z" finished-at="2019-07-08T15:33:29Z">
         </test-method>
       </class>
       <class name="restapitesting.LibraryApiTest">
-        <test-method status="PASS" signature="addBookApiTest(java.lang.String, java.lang.String)" name="addBookApiTest" duration-ms="590" started-at="2019-07-08T03:03:36Z" finished-at="2019-07-08T03:03:36Z">
+        <test-method status="PASS" signature="addBookApiTest(java.lang.String, java.lang.String)" name="addBookApiTest" duration-ms="627" started-at="2019-07-08T15:33:35Z" finished-at="2019-07-08T15:33:36Z">
           <params>
             <param index="0">
               <value>
@@ -328,7 +328,7 @@ Expected content-type "XML" doesn't match actual content-type "application/json;
             </param>
           </params>
         </test-method>
-        <test-method status="FAIL" signature="addBookApiTest(java.lang.String, java.lang.String)" name="addBookApiTest" duration-ms="601" started-at="2019-07-08T03:03:36Z" finished-at="2019-07-08T03:03:37Z">
+        <test-method status="FAIL" signature="addBookApiTest(java.lang.String, java.lang.String)" name="addBookApiTest" duration-ms="634" started-at="2019-07-08T15:33:36Z" finished-at="2019-07-08T15:33:36Z">
           <params>
             <param index="0">
               <value>
@@ -405,7 +405,7 @@ Expected status code <200> but was <404>.
             </full-stacktrace>
           </exception>
         </test-method>
-        <test-method status="PASS" signature="addBookApiTest(java.lang.String, java.lang.String)" name="addBookApiTest" duration-ms="685" started-at="2019-07-08T03:03:37Z" finished-at="2019-07-08T03:03:37Z">
+        <test-method status="PASS" signature="addBookApiTest(java.lang.String, java.lang.String)" name="addBookApiTest" duration-ms="668" started-at="2019-07-08T15:33:36Z" finished-at="2019-07-08T15:33:37Z">
           <params>
             <param index="0">
               <value>

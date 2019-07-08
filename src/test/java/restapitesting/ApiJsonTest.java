@@ -58,7 +58,7 @@ public class ApiJsonTest {
 		log.info("Host Information : "+prop.getProperty("baseURL"));
 RestAssured.baseURI = prop.getProperty("baseURL");
 		
-		Response addPlace = given().queryParam("key", prop.getProperty("key")).body(Payload.postAddPlaceJsonBody()).
+		Response addPlace = given().queryParam("key", prop.getProperty("key")).body(Payload.postAddPlaceJsonBody()).log().all().
 		when().post("/maps/api/place/add/json").
 		then().assertThat().statusCode(200).and().contentType(ContentType.JSON).and().body("status", equalTo("OK")).and().body("scope", equalTo("APP")).
 		extract().response();
