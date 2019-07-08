@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test(failed)" preserve-order="false">
+    <classes>
+      <class name="restapitesting.ApiXMLTest">
+        <methods>
+          <include name="initialization"/>
+          <include name="addDeletePlace"/>
+        </methods>
+      </class>
+      <class name="restapitesting.ApiJsonTest">
+        <methods>
+          <include name="initialization"/>
+        </methods>
+      </class>
+      <class name="restapitesting.TwitterRestApiTest">
+        <methods>
+          <include name="postTweet"/>
+          <include name="getLatestTweets"/>
+        </methods>
+      </class>
+      <class name="restapitesting.LibraryApiTest">
+        <methods>
+          <include name="addBookApiTest" invocation-numbers="1"/>
+          <include name="initialization"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
