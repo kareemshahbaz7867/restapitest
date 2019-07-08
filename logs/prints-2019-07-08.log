@@ -1,0 +1,4 @@
+03:01:10.667 [main] INFO  restapitesting.ApiJsonTest - Host Information : http://216.10.245.166
+03:01:14.107 [main] INFO  restapitesting.ApiJsonTest - Response :{"status":"OK","place_id":"7341493ac3bee75d407680103df3de28","scope":"APP","reference":"586a242efb92742fd9ca1c25bdeb41e0586a242efb92742fd9ca1c25bdeb41e0","id":"586a242efb92742fd9ca1c25bdeb41e0"}
+03:01:14.138 [main] INFO  restapitesting.ApiJsonTest - place id value 7341493ac3bee75d407680103df3de28
+03:01:14.762 [main] INFO  restapitesting.ApiJsonTest - Host Information : http://216.10.245.166
